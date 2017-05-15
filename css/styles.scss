@@ -12,7 +12,7 @@ body {
     position: relative;
     overflow: hidden;
 }
-#stage svg {
+#stage .square {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -24,6 +24,7 @@ h1 {
     top: 10px;
     left: 10px;
 }
+
 // Animations
 #stage h1, #stage svg {
     opacity: 0;
