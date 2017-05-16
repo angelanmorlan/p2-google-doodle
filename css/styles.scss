@@ -39,7 +39,48 @@ h1 {
   
     
 }
-g#Layer_1:hover {
-    transform: scale(2) rotate(-45deg);
-    transition: transform 1s;
+img {
+    position:absolute;
+    left: 100px;
+    top: 68px;
+    width: 35%;
+    height:auto;
+}
+
+#stage svg {
+    animation: FlagUp 5s 1s infinite alternate-reverse both;
+    
+
+
+}
+g#Layer_4 {
+    animation: rotateSeals 5s 3s normal linear infinite;
+    transform-origin: 50% 50%;
+    
+}
+
+/*Last Frame*/
+
+#stage:hover svg {
+    opacity: 1;
+   
+}
+@keyframes rotateSeals {
+    0% {
+    transform: rotate(0deg);
+    
+  }
+    76% {
+    transform: rotate(-360deg);
+  }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes FlagUp {
+    0% { bottom: 273px }
+    53% { bottom: 273px }
+    75% { bottom: 0px }
+    100% {bottom: 0px }
 }
