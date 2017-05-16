@@ -22,3 +22,4 @@ Short Description of Topic
 ![Name of Image](http://fletcher.tufts.edu/~/media/Fletcher/Students/imgs/Fletcher%20Veterans%202.jpg?h=200&w=301)
 ![Name of Image](https://localtvwnep.files.wordpress.com/2015/11/veterans-day-tiny.gif)
 ![Name of Image](https://www.hawaii-aloha.com/wp-content/uploads/2016/11/veterans-day-flag.jpg)
+![Name of Image](http://ccv.edu/wp-content/uploads/2013/05/20131031_militarySeals.png)

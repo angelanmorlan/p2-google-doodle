@@ -452,7 +452,7 @@ button {
 /* Styling */
 /* line 6, /Users/amorlan/Desktop/p2-google-doodle/p2-google-doodle/css/styles.scss */
 body {
-  background: #bff4f4; }
+  background: white; }
 
 /* line 11, /Users/amorlan/Desktop/p2-google-doodle/p2-google-doodle/css/styles.scss */
 #stage {
@@ -469,6 +469,13 @@ h1 {
   position: absolute;
   margin: 0;
   top: 10px;
-  left: 10px; }
+  left: 10px;
+
+
+}
+g#Layer_1:hover {
+    transform: scale(2) rotate(-45deg);
+    transition: transform 1s;
+}
 
 /*# sourceMappingURL=styles.css.map */
