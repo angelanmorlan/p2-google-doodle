@@ -6,8 +6,8 @@
                 "outputDir": "../css/",
                 "sourceComments": false,
                 "outputStyle": "compressed"
-            }
-            
+            },
+            "linting.collapsed": true
         }
     }
 }

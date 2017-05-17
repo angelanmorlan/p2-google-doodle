@@ -11,7 +11,6 @@ body {
 //Stage
 #stage {
     position: relative;
-    overflow: hidden;
 }
 #stage svg {
     position: absolute;
@@ -21,24 +20,21 @@ body {
 // CHild
 h1 {
     position: absolute;
+    font-family: 'Anton', sans-serif;
     margin: 0;
-    top: 10px;
-    left: 10px;
+    top: 200px;
+    right: 55px;
     
     
 }
 
 // Animations
- #stage svg {
-    opacity: 0;
-    transition: opacity 2.5s;
-}
-#stage: hover svg {
-    opacity: 1;
+ 
+
     
   
     
-}
+
 img {
     position:absolute;
     left: 100px;
@@ -58,13 +54,8 @@ g#Layer_4 {
     transform-origin: 50% 50%;
     
 }
+  
 
-/*Last Frame*/
-
-#stage:hover svg {
-    opacity: 1;
-   
-}
 @keyframes rotateSeals {
     0% {
     transform: rotate(0deg);
